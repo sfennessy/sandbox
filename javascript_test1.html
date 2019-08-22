@@ -1,0 +1,47 @@
+<html>
+<body>
+<head>
+<script>
+	function myFunction()
+		{document.getElementById("demo3").innerHTML = "CLICK! Paragragh has changed.";}
+</script>
+</head>
+<p/>
+<p>My first paragraph.</p>
+
+<button type="button" onclick="document.write(5 + 6)">Try it</button>
+<p/>
+<script src="javascript_test.js"> </script>
+
+<script>
+	function myFunction2()
+		{document.getElementById("demo3").innerHTML = "MouseOver!! Paragragh has changed.";}
+</script>
+
+<p id ="demo4">Demo Four</p>
+<button type="button" onclick="myFunction4()">CLICK ME</button>
+
+
+<p id ="demo3" onmouseover="myFunction2()"> Existing text</p>
+<button type="button" onclick="myFunction()">CLICK ME</button>
+
+<p/>
+<p id ="demo2"></p>
+<script>
+	document.getElementById("demo2").innerHTML = "Some Script tag Javascript";
+</script>
+
+<p/>
+
+<p id ="demo">Java script test.</p>
+
+<button type="button" onclick='document.getElementById("demo").innerHTML = "Hello Java Script"'>Click ME</button>
+<p/>
+<button onclick="document.getElementById('myImage').src='../Images/pic_bulbon.gif'">Turn ON light!!</button>
+
+<img id="myImage" src="../images/pic_bulbon.gif" style="width:100px"  >
+<button onclick="document.getElementById('myImage').src='../Images/pic_bulboff.gif'">Turn OFF light!!</button>
+
+
+</body>
+</html>
